@@ -1,5 +1,5 @@
 {
-  "name": "imagemin-mozjpeg",
+  "name": "@avocode/imagemin-mozjpeg",
   "version": "6.0.0",
   "description": "mozjpeg imagemin plugin",
   "license": "MIT",
@@ -43,7 +43,7 @@
   "dependencies": {
     "exec-buffer": "^3.0.0",
     "is-jpg": "^1.0.0",
-    "mozjpeg": "^4.0.0"
+    "@avocode/mozjpeg": "^4.0.0"
   },
   "devDependencies": {
     "ava": "*",
