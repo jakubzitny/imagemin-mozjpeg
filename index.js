@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isJpg = require('is-jpg');
-const mozjpeg = require('mozjpeg');
+const mozjpeg = require('@avocode/mozjpeg');
 
 module.exports = opts => buf => {
 	opts = Object.assign({}, opts);
